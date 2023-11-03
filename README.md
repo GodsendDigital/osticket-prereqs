@@ -20,8 +20,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Create A Virtual Machine/Install IIS Server
 - Install the Pre-Requisites
 - Set up osTicket
-- Item 4
-- Item 5
+- Install the database and set up admin account
 
 <h2>Installation Steps</h2>
 
@@ -44,9 +43,13 @@ To install osTicket I must first install all the Pre-Requisites. First installs 
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/099hNGo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/1uPuidl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Now I can download osTicket but i must extract it to the C:\netpub\w\wwwroot folder. After that process, I go back inside IIS to restart the server. I click on Default Web Site then expand osTicket. It is an option on the right that say Browse #80 that will load up osTicket. Next go to ost-config settings and allow everyone permission to read and write.
 </p>
 <p>
-Af
+<img src="https://i.imgur.com/TklQRm6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
+<img src="https://i.imgur.com/9G7B5Iq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+To continue setting up osTicket, I have to instal HediSQL to finish the process. HediSQL is a database for clients. A new connection is going to be created. Username is root. After it is install make a new database and name it osTicket. Then I continue to make an admin account with osTicket and add the database. Hit create and osTicket is ready to go
 </p>
 <br />
