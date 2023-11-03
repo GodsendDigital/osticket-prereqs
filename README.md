@@ -50,6 +50,6 @@ Now I can download osTicket but i must extract it to the C:\netpub\w\wwwroot fol
 <p>
 <img src="https://i.imgur.com/TklQRm6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <img src="https://i.imgur.com/9G7B5Iq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-To continue setting up osTicket, I have to instal HediSQL to finish the process. HediSQL is a database for clients. A new connection is going to be created. Username is root. After it is install make a new database and name it osTicket. Then I continue to make an admin account with osTicket and add the database. Hit create and osTicket is ready to go
+To continue setting up osTicket, I have to instal HediSQL to finish the process. HediSQL is a database for clients. A new connection is going to be created. Username is root. After it is install make a new database and name it osTicket. Then I continue to make an admin account with osTicket and add the database. Hit create and osTicket is ready to go.
 </p>
 <br />
